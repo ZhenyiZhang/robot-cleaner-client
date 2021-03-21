@@ -18,11 +18,9 @@ export default function Home() {
 	const [map, setMap] = useState("");
 	const [reports, setReports] = useState(null);
 	const [isLoading, setIsLoading] = useState(false);
-  const [cleaning, setCleaning] = useState(false);
   const [error, setError] = useState('');
 
 	const sendMapHandler = () => {
-    console.log(isValidMap(mapInput));
     if(!isValidMap(mapInput)) {
       setError('Input Error');
       return;
