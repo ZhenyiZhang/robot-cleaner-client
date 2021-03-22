@@ -20,7 +20,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 
 ## Map Input
-this application supports input the cleaning map through client
+this application supports input the cleaning map through client, make sure your input map is valid and the map must be surrounded by walls
 
 a long ASCII character string:
 
